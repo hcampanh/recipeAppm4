@@ -1,5 +1,5 @@
 //
-//  RecipeListAppApp.swift
+//  RecipeListApp.swift
 //  RecipeListApp
 //
 //  Created by henrique campanha on 27/12/2021.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct RecipeListAppApp: App {
+struct RecipeListApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeListView()
         }
     }
 }
