@@ -10,7 +10,7 @@ import SwiftUI
 struct RecipeTabView: View {
     var body: some View {
         TabView{
-            Text("Feature view")
+            RecipeFeaturedView()
                 .tabItem {
                     VStack {
                        Image(systemName:"star.fill")
